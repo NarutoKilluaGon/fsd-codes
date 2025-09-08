@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <button type="button">Close</button> <!-- form ke bahar button behavior needs to be defined -->
+    <form action="/action">
+        <div>
+        <!-- type 1 input & label -->
+        <label>
+        Full name
+        <input>
+        </label>
+        
+
+        <!-- type 2 input and label -->
+        <label for="username">College name</label>
+        <input type="text" id="username" placeholder="IIT Lal Kua" name="college">
+        
+
+        Instagram password
+        <input type="password" placeholder="hehe">
+        <!-- how to add show password button?? -->
+        
+        </div>
+
+        Favourite number
+        <input type="number" placeholder="mine is 42">
+        <br>
+
+        Birth time
+        <input type="time" placeholder="enter time">
+        <br>
+
+        <label>
+        Fav color
+        <input type="color"placeholder="don't overthink it">
+        <br>
+        </label>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <input type="button" value="Click me">
+        <input type="submit" value="Click for submit">
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results?">
+        <div>
+            <label for="yt-search">Search youtube</label>
+            <input type="text" id="yt-search" placeholder="type to search" name="search_query">
+        </div>
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <label for="gs">google</label>
+        <input type="text" placeholder="search on google" id="gs" name="q">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
