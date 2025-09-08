@@ -15,12 +15,10 @@
         <input>
         </label>
         
-
         <!-- type 2 input and label -->
         <label for="username">College name</label>
         <input type="text" id="username" placeholder="IIT Lal Kua" name="college">
         
-
         Instagram password
         <input type="password" placeholder="hehe">
         <!-- how to add show password button?? -->
@@ -38,13 +36,49 @@
         <label>
         Fav color
         <input type="color"placeholder="don't overthink it">
-        <br>
         </label>
+        <hr>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
-        <input type="button" value="Click me">
-        <input type="submit" value="Click for submit">
-    </form>
+        <hr>
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+        <hr>
+        <div>
+
+            <br>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <br>
+            <input type="radio" name="fruit" id="orange" value="orange">
+            <label for="apple">Orange</label>
+            <br>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="apple">Banana</label> 
+             <!-- if you want to tick only one option in radio write name="fruit" for allotherwise for diff name you can tick multiple options -->
+        </div>
+        <hr>
+        <div>
+            choose your vices:
+            <select name="vices=" id="vices">
+                <option value="substance">Substance</option>
+                <option value="mobile" selected>mobile</option>
+                <option value="power">power</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <label for="volume"> Volume </label>
+            <input type="range" min="0" max="100" id="volume" name="vol" step="10" value="70">
+            
+        </div>
+        <hr>
+        <label for="feedback">Waiting for your feedback: </label>
+        <textarea id="feedback" name="feedback" rows="1" cols="11" placeholder="feeeeback"></textarea>
+        <!-- <input type="button" value="Click me">
+        <input type="submit" value="Click for submit"> -->
+
+    <!-- </form>
     <hr>
     <form action="https://www.youtube.com/results?">
         <div>
@@ -63,6 +97,6 @@
         <label for="reddit">reddit</label>
         <input type="text" placeholder="search on reddit" id="reddit" name="q">
         <button type="submit">Search</button>
-    </form>
+    </form> -->
 </body>
 </html>
