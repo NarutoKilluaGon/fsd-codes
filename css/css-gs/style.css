@@ -1,0 +1,20 @@
+h1{
+    color: brown;
+    background-color: turquoise;
+}
+button{
+    color: yellow;
+    background-color: black;
+}
+/* text-align left/start right/end center justify */
+/* font-weight normal(400) bold(700) 100-900 
+bolder & ligther for parent child relationship*/
+/* text-decoration underline line-through overline none
+eg: text-decoration: wavy(double) red underline  */
+/* used to remove anchor tag underline */
+/* line-height: normal 2.5 0.5*/
+/* letter-spacing: normal, 10px */
+/* font-size: abs unit (px pts etc) rel unit (50%) 
+use relative units for responsive sites*/
+/* font-family: arial, didot, sans-serif 
+(others are backup fonts) */
