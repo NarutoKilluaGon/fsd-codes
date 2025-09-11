@@ -1,0 +1,28 @@
+/* selectors 
+Universal "*", */
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+/* element selector changes for all elements of same type */
+h1,h3{
+    color:#b92927;
+}
+/* id selector use # */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92927;
+    color: white;
+}
+/* class selector make different element of same class and change all */
+/* use "." */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+/* descendant selector */
+p a{
+    color: purple;
+    background-color: yellow;
+}
