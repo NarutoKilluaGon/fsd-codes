@@ -1,0 +1,15 @@
+/* basically children inherit properties of thier parents */
+/* all properties can't be inherited */
+div{
+    background-color: yellow;
+}
+form{
+    background-color: red;
+}
+/* input boxes & button don't inherit properties by default only their labels do*/
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}

@@ -10,6 +10,7 @@ h1,h3{
 /* id selector use # */
 #login{
     background-color: white;
+    color: Black;
 }
 #signup{
     background-color: #b92927;
@@ -22,7 +23,79 @@ h1,h3{
     color: aliceblue;
 }
 /* descendant selector */
-p a{
+.follow a{
     color: purple;
     background-color: yellow;
 }
+nav ul li a {
+    color:hotpink;
+}
+/* adjacent Sibling Combinator: headings immediatlely after para */
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+/*child combinator: direct descendent are known as childs*/
+div > input{
+    background-color: salmon;
+}
+/* attribute selector: used to select on the basis of prescence of given atr=ributes */
+input[type="password"]{
+    color: red;
+    font-weight: 800;
+}
+input[type="username"]{
+    color: green;
+    font-weight: 700;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+/* keywrod added to selector that specifies state of the selected element */
+/* hover acitve checked nth of type */
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* right now only upvote and answer button are changing color determined by */
+/* specificity */
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: hotpink;
+    color:black;
+}
+p:active{
+    font-weight: bold;
+    color:green;
+}
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    color: red;
+}
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
+/* pseudo elements */
+/* first-line first letter selection */
+h1::first-letter{
+    color: black;
+}
+#demo::selection{
+    background-color: purple;
+}
+/* CSS Cascade algo's job is to decide order of css properties on the basis of order  */
+/* applies for the last defined ones whether it be in file or in written order */
+
+/* selector specificity: calculates weight of a particular css */
+/*1. id>class, attribute & pesudo-class>element & pseudo-element */
+/* 2. more selectors> less selectors */
+/* if specificity same then check cascade */
+/* inline styles are prioritised more than everything like id>class>elem */
+
+
+/* !important: use to define changes that can never can be changed */
