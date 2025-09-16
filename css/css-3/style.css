@@ -1,0 +1,44 @@
+/* BOX MODEL */
+/* height and width: used to set content heiht and width (blue area) */
+div{
+    height: 100px;
+    width: 820px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-color: color;
+    border-style: double; */
+    border: 5px double black;
+    /* border-left: dashed blue; */
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+}
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px
+}
+/* border: element's border outer most */
+/* border-width border-style border-color */
+/* bordershorthand-->  border: width style color */
+/* border sides--> border-left border-top lly for right& bottom */
+/* border-radius: round the corners of an elements's outer border edge */
+/* element with same height and width with broder-radius 50% will be circle */
+
+/* padging: distance between border and content greeen area
+padding-right lly left top bottom*/
+/* shorthand padding: 1. t&b l&r 2. top l&r buttom 3. top r b l */
+
+/* margin:   set spacing outside of border with other elements (ORANGE)*/
+/* margin-left lly r b t */
+
+/* display: inline block none flex grid  */
+/* inline element in padding aur margin left aur right se set hoti hai */
+/* inline-block styling block wali par behavior inline wala */
+ 
