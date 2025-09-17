@@ -1,0 +1,37 @@
+Alpha channel
+rgba is where a stand for opacity of the color rangin frm 0 to 1
+
+opacity: of the element 0 to 1 value
+
+transitions: allows you to define the transtion between two states of an ele
+eg:
+div{
+    background: green;
+    transition-duration: 1sec;//fade in fade out effect
+    // prop_name duration timing-function delay
+}
+div:hover{
+    background: black;
+    border-radius: 50%;
+}
+margin: 0 auto;
+
+TRANSFORM: rotate scale skew translate
+transform: rotate (45deg);
+transform: scale (0.5,y); or scaleX();
+transform: translate (100px, 100px);
+transform: skew (30deg);
+transform: rotate(30 deg) translateX (150px);
+
+
+box-shadow: 2px 2px 10px green;
+xoffset yoffset blurradius colors
+
+backgroud-image: url("img-namelocal.jpeg")'
+backgroud-size: contain(image repeat) cover(img crop) auto(zoomed and blur to fit )
+
+position: how an element is postioned in a document
+top right bottom left (static relative absolute fixed)
+static is default value
+relative to itself offset
+absolute 
